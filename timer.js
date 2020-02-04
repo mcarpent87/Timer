@@ -34,8 +34,8 @@ class Timer {
         } else {
             this.timeRemaining = timeRemaining - .02;
             if (this.onTick) {
-              this.onTick(this.timeRemaining);
-            }
+                this.onTick(this.timeRemaining);
+              }
         }
     };
 
